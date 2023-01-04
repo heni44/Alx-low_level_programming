@@ -1,15 +1,6 @@
-julien@ubuntu:~/0x08. Recursion cat 3-main.c
-#include "main.h"
-#include <stdio.h>
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+julien@ubuntu:~/0x08. Recursion cat 3-main.c)
 {
-    int r
+    intr
 
     r = factorial(1)
     printf("%d\n", r)
