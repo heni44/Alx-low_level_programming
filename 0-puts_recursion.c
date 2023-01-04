@@ -1,5 +1,16 @@
-#include <unistd.h>
+void_putchar(int* nb)
+{
+    if (nb < 0) 
+    {
+        return;
+    }
+    _putchar("%d", nb);
+    nb --;
+    _putchar(nb);
+}
 
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+int main(void)
+{
+    print(4);
+    return (0);
+}
