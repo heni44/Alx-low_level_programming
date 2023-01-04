@@ -1,16 +1,17 @@
-void_puts_recursion(char *s)
-{
-    if (nb < 0) 
-    {
-        return;
-    }
-    _putchar("%d", nb);
-    nb --;
-    _putchar(nb);
-}
+julien@ubuntu:~/0x08. Recursion$ cat 0-main.c
+#include "main.h"
 
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-    print(4);
+    _puts_recursion("Puts with recursion");
     return (0);
 }
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-main.c 0-puts_recursion.c -o 0-puts_recursion
+julien@ubuntu:~/0x08. Recursion$ ./0-puts_recursion 
+Puts with recursion
+julien@ubuntu:~/0x08. Recursion$ 
