@@ -1,8 +1,5 @@
 
   julien@ubuntu:~/0x08. Recursion$ cat 101-main.c
-#include "main.h"
-#include <stdio.h
-{
     intr;
 
     r = wildcmp("main.c", "*.c");
