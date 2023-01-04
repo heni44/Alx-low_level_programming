@@ -1,13 +1,4 @@
-julien@ubuntu:~/0x08. Recursion$ cat 2-main.c 
-#include "main.h"
-#include <stdio.h>
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+julien@ubuntu:~/0x08. Recursion$ cat 2-main.c
 {
     int n;
 
