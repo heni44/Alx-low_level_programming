@@ -1,16 +1,4 @@
-julien@ubuntu:~/0x08. Recursion$ cat 5-main.c 
-#include "main.h"
-#include <stdio.h>
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
-
+julien@ubuntu:~/0x08. Recursion$ cat 5-main.c
     r = _sqrt_recursion(1);
     printf("%d\n", r);
     r = _sqrt_recursion(1024);
