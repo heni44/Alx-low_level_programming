@@ -1,4 +1,4 @@
-void_putchar(int* nb)
+void_puts_recursion(char *s)
 {
     if (nb < 0) 
     {
