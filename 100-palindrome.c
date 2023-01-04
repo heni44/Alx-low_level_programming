@@ -1,15 +1,7 @@
 julien@ubuntu:~/0x08. Recursion$ cat 100-main.c
 #include "main.h"
-#include <stdio.h>
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
 {
-    int r;
+    intr;
 
     r = is_palindrome("level");
     printf("%d\n", r);
