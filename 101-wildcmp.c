@@ -1,16 +1,9 @@
 
   julien@ubuntu:~/0x08. Recursion$ cat 101-main.c
 #include "main.h"
-#include <stdio.h>
-
-/**
- * main - check the codec
- *
- * Return: Always 0.
- */
-int main(void)
+#include <stdio.h
 {
-    int r;
+    intr;
 
     r = wildcmp("main.c", "*.c");
     printf("%d\n", r);
